@@ -125,7 +125,7 @@
                         <configuration>
                             <projectName>RestCucumber</projectName>
                             <skip>false</skip>
-                            <outputDirectory>reports/html-reports</outputDirectory>
+                            <outputDirectory>target/cucumber-reports</outputDirectory>
                             <inputDirectory>target/cucumber-reports</inputDirectory>
                             <jsonFiles>
                                 <param>**/*.json</param>
