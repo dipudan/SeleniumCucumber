@@ -3,13 +3,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-07T07:34:51.148Z",
+        "start_timestamp": "2021-09-07T07:41:19.891Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn\u0027t exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: \u00274.0.0-alpha-7\u0027, revision: \u0027de8579b6d5\u0027\nSystem info: host: \u0027fv-az77-279\u0027, ip: \u002710.1.0.43\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00275.8.0-1040-azure\u0027, java.version: \u002711.0.11\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55a6b06cea63 \u003cunknown\u003e\n#1 0x55a6b0443458 \u003cunknown\u003e\n#2 0x55a6b04662e3 \u003cunknown\u003e\n#3 0x55a6b0461e9f \u003cunknown\u003e\n#4 0x55a6b049bb72 \u003cunknown\u003e\n#5 0x55a6b0495fd3 \u003cunknown\u003e\n#6 0x55a6b046c514 \u003cunknown\u003e\n#7 0x55a6b046d505 \u003cunknown\u003e\n#8 0x55a6b06fae2e \u003cunknown\u003e\n#9 0x55a6b0710886 \u003cunknown\u003e\n#10 0x55a6b06fbd75 \u003cunknown\u003e\n#11 0x55a6b0711d94 \u003cunknown\u003e\n#12 0x55a6b06f28eb \u003cunknown\u003e\n#13 0x55a6b072ccd8 \u003cunknown\u003e\n#14 0x55a6b072ce58 \u003cunknown\u003e\n#15 0x55a6b0746dfd \u003cunknown\u003e\n#16 0x7ff5ff21d609 start_thread\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:127)\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:93)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:163)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:150)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:105)\n\tat basePackage.Hooks.setup(Hooks.java:35)\n",
-              "duration": 7403328000,
-              "status": "failed"
+              "duration": 10875443000,
+              "status": "passed"
             },
             "match": {
               "location": "basePackage.Hooks.setup()"
@@ -23,9 +22,8 @@
         "after": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\n\tat basePackage.Hooks.closeBrowser(Hooks.java:44)\n",
-              "duration": 205000,
-              "status": "failed"
+              "duration": 83380000,
+              "status": "passed"
             },
             "match": {
               "location": "basePackage.Hooks.closeBrowser()"
@@ -37,8 +35,8 @@
         "steps": [
           {
             "result": {
-              "duration": 68000,
-              "status": "skipped"
+              "duration": 1309193000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I am on the Google search page",
@@ -49,8 +47,8 @@
           },
           {
             "result": {
-              "duration": 61000,
-              "status": "skipped"
+              "duration": 3076052000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I search for \"Cheese!\"",
@@ -67,8 +65,8 @@
           },
           {
             "result": {
-              "duration": 74000,
-              "status": "skipped"
+              "duration": 18998000,
+              "status": "passed"
             },
             "line": 8,
             "name": "the page title should start with \"cheese\"",
@@ -91,13 +89,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-07T07:34:51.142Z",
+        "start_timestamp": "2021-09-07T07:41:19.887Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn\u0027t exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: \u00274.0.0-alpha-7\u0027, revision: \u0027de8579b6d5\u0027\nSystem info: host: \u0027fv-az77-279\u0027, ip: \u002710.1.0.43\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00275.8.0-1040-azure\u0027, java.version: \u002711.0.11\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x564408bd4a63 \u003cunknown\u003e\n#1 0x564408949458 \u003cunknown\u003e\n#2 0x56440896c2e3 \u003cunknown\u003e\n#3 0x564408967e9f \u003cunknown\u003e\n#4 0x5644089a1b72 \u003cunknown\u003e\n#5 0x56440899bfd3 \u003cunknown\u003e\n#6 0x564408972514 \u003cunknown\u003e\n#7 0x564408973505 \u003cunknown\u003e\n#8 0x564408c00e2e \u003cunknown\u003e\n#9 0x564408c16886 \u003cunknown\u003e\n#10 0x564408c01d75 \u003cunknown\u003e\n#11 0x564408c17d94 \u003cunknown\u003e\n#12 0x564408bf88eb \u003cunknown\u003e\n#13 0x564408c32cd8 \u003cunknown\u003e\n#14 0x564408c32e58 \u003cunknown\u003e\n#15 0x564408c4cdfd \u003cunknown\u003e\n#16 0x7f3ced6f6609 start_thread\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:127)\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:93)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:163)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:150)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:105)\n\tat basePackage.Hooks.setup(Hooks.java:35)\n",
-              "duration": 7408829000,
-              "status": "failed"
+              "duration": 10886002000,
+              "status": "passed"
             },
             "match": {
               "location": "basePackage.Hooks.setup()"
@@ -111,9 +108,8 @@
         "after": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\n\tat basePackage.Hooks.closeBrowser(Hooks.java:44)\n",
-              "duration": 213000,
-              "status": "failed"
+              "duration": 86400000,
+              "status": "passed"
             },
             "match": {
               "location": "basePackage.Hooks.closeBrowser()"
@@ -125,8 +121,8 @@
         "steps": [
           {
             "result": {
-              "duration": 122000,
-              "status": "skipped"
+              "duration": 1293221000,
+              "status": "passed"
             },
             "line": 13,
             "name": "I am on the Google search page",
@@ -137,8 +133,8 @@
           },
           {
             "result": {
-              "duration": 131000,
-              "status": "skipped"
+              "duration": 2068153000,
+              "status": "passed"
             },
             "line": 14,
             "name": "I search for \"Peace!\"",
@@ -155,8 +151,8 @@
           },
           {
             "result": {
-              "duration": 66000,
-              "status": "skipped"
+              "duration": 33745000,
+              "status": "passed"
             },
             "line": 15,
             "name": "the page title should start with \"peace\"",
@@ -190,7 +186,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-07T07:34:51.146Z",
+        "start_timestamp": "2021-09-07T07:41:19.898Z",
         "line": 11,
         "name": "Today is or is not Friday",
         "description": "",
@@ -200,7 +196,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9396000,
+              "duration": 305000,
               "status": "passed"
             },
             "line": 5,
@@ -218,7 +214,7 @@
           },
           {
             "result": {
-              "duration": 4550000,
+              "duration": 131000,
               "status": "passed"
             },
             "line": 6,
@@ -230,7 +226,7 @@
           },
           {
             "result": {
-              "duration": 10754000,
+              "duration": 5910000,
               "status": "passed"
             },
             "line": 7,
@@ -249,7 +245,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-07T07:34:51.160Z",
+        "start_timestamp": "2021-09-07T07:41:19.891Z",
         "line": 12,
         "name": "Today is or is not Friday",
         "description": "",
@@ -259,7 +255,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4311000,
+              "duration": 1300000,
               "status": "passed"
             },
             "line": 5,
@@ -277,7 +273,7 @@
           },
           {
             "result": {
-              "duration": 142000,
+              "duration": 6877000,
               "status": "passed"
             },
             "line": 6,
@@ -289,7 +285,7 @@
           },
           {
             "result": {
-              "duration": 11144000,
+              "duration": 4657000,
               "status": "passed"
             },
             "line": 7,
@@ -308,7 +304,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-07T07:34:51.144Z",
+        "start_timestamp": "2021-09-07T07:41:19.891Z",
         "line": 13,
         "name": "Today is or is not Friday",
         "description": "",
@@ -318,7 +314,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9455000,
+              "duration": 216000,
               "status": "passed"
             },
             "line": 5,
@@ -336,7 +332,7 @@
           },
           {
             "result": {
-              "duration": 447000,
+              "duration": 3318000,
               "status": "passed"
             },
             "line": 6,
@@ -348,7 +344,7 @@
           },
           {
             "result": {
-              "duration": 5855000,
+              "duration": 3327000,
               "status": "passed"
             },
             "line": 7,
@@ -378,7 +374,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-07T07:34:51.230Z",
+        "start_timestamp": "2021-09-07T07:41:19.956Z",
         "line": 3,
         "name": "User login to application successfully.",
         "description": "",
@@ -388,7 +384,7 @@
         "steps": [
           {
             "result": {
-              "duration": 21417000,
+              "duration": 9834000,
               "status": "passed"
             },
             "line": 5,
@@ -406,7 +402,7 @@
           },
           {
             "result": {
-              "duration": 146000,
+              "duration": 132000,
               "status": "passed"
             },
             "line": 6,
@@ -418,7 +414,7 @@
           },
           {
             "result": {
-              "duration": 132000,
+              "duration": 112000,
               "status": "passed"
             },
             "line": 7,
@@ -430,7 +426,7 @@
           },
           {
             "result": {
-              "duration": 49334000,
+              "duration": 39453000,
               "status": "passed"
             },
             "line": 8,
@@ -594,7 +590,7 @@
           },
           {
             "result": {
-              "duration": 3023000,
+              "duration": 581000,
               "status": "passed"
             },
             "line": 34,

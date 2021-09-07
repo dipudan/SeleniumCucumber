@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>RestCucumber</td>
         <td>1</td>
-      <td>07 Sep 2021, 07:34</td>
+      <td>07 Sep 2021, 07:41</td>
     </tr>
   </tbody>
 </table>
@@ -129,19 +129,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@ui-test</td>
+          <td      class="passed"    >6</td>
           <td >0</td>
           <td >0</td>
-          <td     class="skipped"   >6</td>
           <td >0</td>
           <td >0</td>
           <td class="total">6</td>
 
+          <td  class="passed"    >2</td>
           <td >0</td>
-          <td  class="failed"    >2</td>
           <td class="total">2</td>
 
-          <td class="duration" data-value="522000">0.000</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="7799362000">7.799</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -183,12 +183,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">4.404</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Finding some cheese</span>
 
@@ -199,13 +199,13 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#before-2">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-2">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -215,80 +215,17 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="before-2" class="inner-level collapse collapsable-details  in ">
+    <div id="before-2" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">basePackage.Hooks.setup()</span>
 
-  <span class="lead-duration duration">7.403</span>
+  <span class="lead-duration duration">10.875</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-3">
-          <a>Error message</a>
-      </div>
-      <div id="msg-3" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally.
-  (unknown error: DevToolsActivePort file doesn't exist)
-  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
-Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
-System info: host: 'fv-az77-279', ip: '10.1.0.43', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '11.0.11'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: #0 0x55a6b06cea63 &lt;unknown&gt;
-#1 0x55a6b0443458 &lt;unknown&gt;
-#2 0x55a6b04662e3 &lt;unknown&gt;
-#3 0x55a6b0461e9f &lt;unknown&gt;
-#4 0x55a6b049bb72 &lt;unknown&gt;
-#5 0x55a6b0495fd3 &lt;unknown&gt;
-#6 0x55a6b046c514 &lt;unknown&gt;
-#7 0x55a6b046d505 &lt;unknown&gt;
-#8 0x55a6b06fae2e &lt;unknown&gt;
-#9 0x55a6b0710886 &lt;unknown&gt;
-#10 0x55a6b06fbd75 &lt;unknown&gt;
-#11 0x55a6b0711d94 &lt;unknown&gt;
-#12 0x55a6b06f28eb &lt;unknown&gt;
-#13 0x55a6b072ccd8 &lt;unknown&gt;
-#14 0x55a6b072ce58 &lt;unknown&gt;
-#15 0x55a6b0746dfd &lt;unknown&gt;
-#16 0x7ff5ff21d609 start_thread
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:127)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:93)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:163)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
-	at basePackage.Hooks.setup(Hooks.java:35)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -301,9 +238,9 @@ remote stacktrace: #0 0x55a6b06cea63 &lt;unknown&gt;
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-4">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -313,15 +250,15 @@ remote stacktrace: #0 0x55a6b06cea63 &lt;unknown&gt;
 
   </div>
 
-  <div id="steps-4" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-3" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">I am on the Google search page</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">1.309</span>
 
 </div>
 
@@ -344,11 +281,11 @@ remote stacktrace: #0 0x55a6b06cea63 &lt;unknown&gt;
       <div class="step">
 
 
-<div class="brief step-name-When skipped">
+<div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
   <span class="name">I search for <span class="argument">&quot;Cheese!&quot;</span></span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">3.076</span>
 
 </div>
 
@@ -371,11 +308,11 @@ remote stacktrace: #0 0x55a6b06cea63 &lt;unknown&gt;
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">the page title should start with <span class="argument">&quot;cheese&quot;</span></span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.018</span>
 
 </div>
 
@@ -402,9 +339,9 @@ remote stacktrace: #0 0x55a6b06cea63 &lt;unknown&gt;
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-5">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -414,30 +351,17 @@ remote stacktrace: #0 0x55a6b06cea63 &lt;unknown&gt;
 
     </div>
 
-    <div id="after-5" class="inner-level collapse collapsable-details  in ">
+    <div id="after-4" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">basePackage.Hooks.closeBrowser()</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.083</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-6">
-          <a>Error message</a>
-      </div>
-      <div id="msg-6" class="collapse collapsable-details  in ">
-        <pre>java.lang.NullPointerException
-	at basePackage.Hooks.closeBrowser(Hooks.java:44)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -464,12 +388,12 @@ remote stacktrace: #0 0x55a6b06cea63 &lt;unknown&gt;
 </div>
 
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">3.395</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-7">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Finding some cheese</span>
 
@@ -480,13 +404,13 @@ remote stacktrace: #0 0x55a6b06cea63 &lt;unknown&gt;
   </span>
   <div class="description indention"></div>
 
-  <div id="element-7" class="collapse collapsable-details  in ">
+  <div id="element-5" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#before-8">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-6">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -496,80 +420,17 @@ remote stacktrace: #0 0x55a6b06cea63 &lt;unknown&gt;
 
     </div>
 
-    <div id="before-8" class="inner-level collapse collapsable-details  in ">
+    <div id="before-6" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">basePackage.Hooks.setup()</span>
 
-  <span class="lead-duration duration">7.408</span>
+  <span class="lead-duration duration">10.886</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-9">
-          <a>Error message</a>
-      </div>
-      <div id="msg-9" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally.
-  (unknown error: DevToolsActivePort file doesn't exist)
-  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
-Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
-System info: host: 'fv-az77-279', ip: '10.1.0.43', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '11.0.11'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: #0 0x564408bd4a63 &lt;unknown&gt;
-#1 0x564408949458 &lt;unknown&gt;
-#2 0x56440896c2e3 &lt;unknown&gt;
-#3 0x564408967e9f &lt;unknown&gt;
-#4 0x5644089a1b72 &lt;unknown&gt;
-#5 0x56440899bfd3 &lt;unknown&gt;
-#6 0x564408972514 &lt;unknown&gt;
-#7 0x564408973505 &lt;unknown&gt;
-#8 0x564408c00e2e &lt;unknown&gt;
-#9 0x564408c16886 &lt;unknown&gt;
-#10 0x564408c01d75 &lt;unknown&gt;
-#11 0x564408c17d94 &lt;unknown&gt;
-#12 0x564408bf88eb &lt;unknown&gt;
-#13 0x564408c32cd8 &lt;unknown&gt;
-#14 0x564408c32e58 &lt;unknown&gt;
-#15 0x564408c4cdfd &lt;unknown&gt;
-#16 0x7f3ced6f6609 start_thread
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:127)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:93)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:163)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
-	at basePackage.Hooks.setup(Hooks.java:35)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -582,9 +443,9 @@ remote stacktrace: #0 0x564408bd4a63 &lt;unknown&gt;
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-10">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-7">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -594,15 +455,15 @@ remote stacktrace: #0 0x564408bd4a63 &lt;unknown&gt;
 
   </div>
 
-  <div id="steps-10" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-7" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">I am on the Google search page</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">1.293</span>
 
 </div>
 
@@ -625,11 +486,11 @@ remote stacktrace: #0 0x564408bd4a63 &lt;unknown&gt;
       <div class="step">
 
 
-<div class="brief step-name-When skipped">
+<div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
   <span class="name">I search for <span class="argument">&quot;Peace!&quot;</span></span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">2.068</span>
 
 </div>
 
@@ -652,11 +513,11 @@ remote stacktrace: #0 0x564408bd4a63 &lt;unknown&gt;
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">the page title should start with <span class="argument">&quot;peace&quot;</span></span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.033</span>
 
 </div>
 
@@ -683,9 +544,9 @@ remote stacktrace: #0 0x564408bd4a63 &lt;unknown&gt;
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-11">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-8">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -695,30 +556,17 @@ remote stacktrace: #0 0x564408bd4a63 &lt;unknown&gt;
 
     </div>
 
-    <div id="after-11" class="inner-level collapse collapsable-details  in ">
+    <div id="after-8" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">basePackage.Hooks.closeBrowser()</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.086</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-12">
-          <a>Error message</a>
-      </div>
-      <div id="msg-12" class="collapse collapsable-details  in ">
-        <pre>java.lang.NullPointerException
-	at basePackage.Hooks.closeBrowser(Hooks.java:44)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
