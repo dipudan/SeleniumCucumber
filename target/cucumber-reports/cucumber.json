@@ -1,0 +1,612 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-07T05:11:55.840Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2807491400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "basePackage.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Finding some cheese",
+        "description": "",
+        "id": "i-am-searching-for-cheese.;finding-some-cheese",
+        "after": [
+          {
+            "result": {
+              "duration": 133474100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "basePackage.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1700891300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the Google search page",
+            "match": {
+              "location": "stepDefinition.CheeseDefinition.i_am_on_the_google_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2429513300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search for \"Cheese!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cheese!\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.CheeseDefinition.i_search_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14459200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the page title should start with \"cheese\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cheese\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinition.CheeseDefinition.the_page_title_should_start_with(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui-test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-07T05:11:55.842Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2807440900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "basePackage.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Finding some cheese",
+        "description": "",
+        "id": "i-am-searching-for-cheese.;finding-some-cheese",
+        "after": [
+          {
+            "result": {
+              "duration": 140150700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "basePackage.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2053368000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on the Google search page",
+            "match": {
+              "location": "stepDefinition.CheeseDefinition.i_am_on_the_google_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1468762200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I search for \"Peace!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Peace!\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.CheeseDefinition.i_search_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33502300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the page title should start with \"peace\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"peace\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinition.CheeseDefinition.the_page_title_should_start_with(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui-test"
+          }
+        ]
+      }
+    ],
+    "name": "I am searching for cheese.",
+    "description": "          Did you find it?",
+    "id": "i-am-searching-for-cheese.",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/finding_my_cheese.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-07T05:11:55.839Z",
+        "line": 11,
+        "name": "Today is or is not Friday",
+        "description": "",
+        "id": "is-it-friday-yet?;today-is-or-is-not-friday;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1825600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "today is \"Friday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Friday\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinition.FridayDefinitions.today_is_Sunday(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4738600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I ask whether it\u0027s Friday yet",
+            "match": {
+              "location": "stepDefinition.FridayDefinitions.i_ask_whether_it_s_Friday_yet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6887800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be told \"TGIF\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TGIF\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.FridayDefinitions.i_should_be_told(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-07T05:11:55.841Z",
+        "line": 12,
+        "name": "Today is or is not Friday",
+        "description": "",
+        "id": "is-it-friday-yet?;today-is-or-is-not-friday;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1876100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "today is \"Sunday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sunday\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinition.FridayDefinitions.today_is_Sunday(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5731200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I ask whether it\u0027s Friday yet",
+            "match": {
+              "location": "stepDefinition.FridayDefinitions.i_ask_whether_it_s_Friday_yet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6887800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be told \"Nope\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nope\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.FridayDefinitions.i_should_be_told(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-07T05:11:55.842Z",
+        "line": 13,
+        "name": "Today is or is not Friday",
+        "description": "",
+        "id": "is-it-friday-yet?;today-is-or-is-not-friday;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1876100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "today is \"anything else!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"anything else!\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinition.FridayDefinitions.today_is_Sunday(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5731200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I ask whether it\u0027s Friday yet",
+            "match": {
+              "location": "stepDefinition.FridayDefinitions.i_ask_whether_it_s_Friday_yet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6887800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be told \"Nope\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nope\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.FridayDefinitions.i_should_be_told(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Is it Friday yet?",
+    "description": "  Everybody wants to know when it\u0027s Friday",
+    "id": "is-it-friday-yet?",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/is_it_friday_yet.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-07T05:11:55.888Z",
+        "line": 3,
+        "name": "User login to application successfully.",
+        "description": "",
+        "id": "login-to-the-application-and-verify-home-page.;user-login-to-application-successfully.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4423800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the \"Amazon\" application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Amazon",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.LoginDefinition.iNavigateToTheApplication(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1002100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on the login button",
+            "match": {
+              "location": "stepDefinition.LoginDefinition.click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The login page is displayed with Username and Password textbox",
+            "match": {
+              "location": "stepDefinition.LoginDefinition.the_login_page_is_displayed_with_username_and_password_textbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8171200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the username and password from datatable and click on login button",
+            "match": {
+              "location": "stepDefinition.FridayDefinitions.iEnterTheAndAndClickOnLoginButton(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan1",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan2",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan3",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan4",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan5",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan6",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan7",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan8",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan9",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan10",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan11",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan12",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan13",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan14",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan15",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan16",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan17",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan18",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan19",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan20",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan21",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan22",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan23",
+                  "password@123"
+                ]
+              },
+              {
+                "cells": [
+                  "dipudan24",
+                  "password@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I should navigate to the homepage.",
+            "match": {
+              "location": "stepDefinition.LoginDefinition.i_should_navigate_to_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to the application and verify home page.",
+    "description": "",
+    "id": "login-to-the-application-and-verify-home-page.",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/login_to_my_app.feature",
+    "tags": []
+  }
+]
