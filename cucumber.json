@@ -3,12 +3,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-07T07:30:56.288Z",
+        "start_timestamp": "2021-09-07T07:34:51.148Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn\u0027t exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: \u00274.0.0-alpha-7\u0027, revision: \u0027de8579b6d5\u0027\nSystem info: host: \u0027fv-az74-88\u0027, ip: \u002710.1.0.128\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00275.8.0-1040-azure\u0027, java.version: \u002711.0.11\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55c668d72a63 \u003cunknown\u003e\n#1 0x55c668ae7458 \u003cunknown\u003e\n#2 0x55c668b0a2e3 \u003cunknown\u003e\n#3 0x55c668b05e9f \u003cunknown\u003e\n#4 0x55c668b3fb72 \u003cunknown\u003e\n#5 0x55c668b39fd3 \u003cunknown\u003e\n#6 0x55c668b10514 \u003cunknown\u003e\n#7 0x55c668b11505 \u003cunknown\u003e\n#8 0x55c668d9ee2e \u003cunknown\u003e\n#9 0x55c668db4886 \u003cunknown\u003e\n#10 0x55c668d9fd75 \u003cunknown\u003e\n#11 0x55c668db5d94 \u003cunknown\u003e\n#12 0x55c668d968eb \u003cunknown\u003e\n#13 0x55c668dd0cd8 \u003cunknown\u003e\n#14 0x55c668dd0e58 \u003cunknown\u003e\n#15 0x55c668deadfd \u003cunknown\u003e\n#16 0x7f2ed4c34609 start_thread\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:127)\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:93)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:163)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:150)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:105)\n\tat basePackage.Hooks.setup(Hooks.java:38)\n",
-              "duration": 13676243000,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn\u0027t exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: \u00274.0.0-alpha-7\u0027, revision: \u0027de8579b6d5\u0027\nSystem info: host: \u0027fv-az77-279\u0027, ip: \u002710.1.0.43\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00275.8.0-1040-azure\u0027, java.version: \u002711.0.11\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55a6b06cea63 \u003cunknown\u003e\n#1 0x55a6b0443458 \u003cunknown\u003e\n#2 0x55a6b04662e3 \u003cunknown\u003e\n#3 0x55a6b0461e9f \u003cunknown\u003e\n#4 0x55a6b049bb72 \u003cunknown\u003e\n#5 0x55a6b0495fd3 \u003cunknown\u003e\n#6 0x55a6b046c514 \u003cunknown\u003e\n#7 0x55a6b046d505 \u003cunknown\u003e\n#8 0x55a6b06fae2e \u003cunknown\u003e\n#9 0x55a6b0710886 \u003cunknown\u003e\n#10 0x55a6b06fbd75 \u003cunknown\u003e\n#11 0x55a6b0711d94 \u003cunknown\u003e\n#12 0x55a6b06f28eb \u003cunknown\u003e\n#13 0x55a6b072ccd8 \u003cunknown\u003e\n#14 0x55a6b072ce58 \u003cunknown\u003e\n#15 0x55a6b0746dfd \u003cunknown\u003e\n#16 0x7ff5ff21d609 start_thread\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:127)\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:93)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:163)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:150)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:105)\n\tat basePackage.Hooks.setup(Hooks.java:35)\n",
+              "duration": 7403328000,
               "status": "failed"
             },
             "match": {
@@ -23,8 +23,8 @@
         "after": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\n\tat basePackage.Hooks.closeBrowser(Hooks.java:47)\n",
-              "duration": 666000,
+              "error_message": "java.lang.NullPointerException\n\tat basePackage.Hooks.closeBrowser(Hooks.java:44)\n",
+              "duration": 205000,
               "status": "failed"
             },
             "match": {
@@ -37,7 +37,7 @@
         "steps": [
           {
             "result": {
-              "duration": 405000,
+              "duration": 68000,
               "status": "skipped"
             },
             "line": 6,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 266000,
+              "duration": 61000,
               "status": "skipped"
             },
             "line": 7,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 116000,
+              "duration": 74000,
               "status": "skipped"
             },
             "line": 8,
@@ -91,12 +91,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-07T07:30:56.286Z",
+        "start_timestamp": "2021-09-07T07:34:51.142Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn\u0027t exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: \u00274.0.0-alpha-7\u0027, revision: \u0027de8579b6d5\u0027\nSystem info: host: \u0027fv-az74-88\u0027, ip: \u002710.1.0.128\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00275.8.0-1040-azure\u0027, java.version: \u002711.0.11\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x555d4f77fa63 \u003cunknown\u003e\n#1 0x555d4f4f4458 \u003cunknown\u003e\n#2 0x555d4f5172e3 \u003cunknown\u003e\n#3 0x555d4f512e9f \u003cunknown\u003e\n#4 0x555d4f54cb72 \u003cunknown\u003e\n#5 0x555d4f546fd3 \u003cunknown\u003e\n#6 0x555d4f51d514 \u003cunknown\u003e\n#7 0x555d4f51e505 \u003cunknown\u003e\n#8 0x555d4f7abe2e \u003cunknown\u003e\n#9 0x555d4f7c1886 \u003cunknown\u003e\n#10 0x555d4f7acd75 \u003cunknown\u003e\n#11 0x555d4f7c2d94 \u003cunknown\u003e\n#12 0x555d4f7a38eb \u003cunknown\u003e\n#13 0x555d4f7ddcd8 \u003cunknown\u003e\n#14 0x555d4f7dde58 \u003cunknown\u003e\n#15 0x555d4f7f7dfd \u003cunknown\u003e\n#16 0x7f09cb5aa609 start_thread\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:127)\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:93)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:163)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:150)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:105)\n\tat basePackage.Hooks.setup(Hooks.java:38)\n",
-              "duration": 13706227000,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn\u0027t exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: \u00274.0.0-alpha-7\u0027, revision: \u0027de8579b6d5\u0027\nSystem info: host: \u0027fv-az77-279\u0027, ip: \u002710.1.0.43\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00275.8.0-1040-azure\u0027, java.version: \u002711.0.11\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x564408bd4a63 \u003cunknown\u003e\n#1 0x564408949458 \u003cunknown\u003e\n#2 0x56440896c2e3 \u003cunknown\u003e\n#3 0x564408967e9f \u003cunknown\u003e\n#4 0x5644089a1b72 \u003cunknown\u003e\n#5 0x56440899bfd3 \u003cunknown\u003e\n#6 0x564408972514 \u003cunknown\u003e\n#7 0x564408973505 \u003cunknown\u003e\n#8 0x564408c00e2e \u003cunknown\u003e\n#9 0x564408c16886 \u003cunknown\u003e\n#10 0x564408c01d75 \u003cunknown\u003e\n#11 0x564408c17d94 \u003cunknown\u003e\n#12 0x564408bf88eb \u003cunknown\u003e\n#13 0x564408c32cd8 \u003cunknown\u003e\n#14 0x564408c32e58 \u003cunknown\u003e\n#15 0x564408c4cdfd \u003cunknown\u003e\n#16 0x7f3ced6f6609 start_thread\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:127)\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:93)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:163)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:150)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:105)\n\tat basePackage.Hooks.setup(Hooks.java:35)\n",
+              "duration": 7408829000,
               "status": "failed"
             },
             "match": {
@@ -111,8 +111,8 @@
         "after": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\n\tat basePackage.Hooks.closeBrowser(Hooks.java:47)\n",
-              "duration": 272000,
+              "error_message": "java.lang.NullPointerException\n\tat basePackage.Hooks.closeBrowser(Hooks.java:44)\n",
+              "duration": 213000,
               "status": "failed"
             },
             "match": {
@@ -125,7 +125,7 @@
         "steps": [
           {
             "result": {
-              "duration": 116000,
+              "duration": 122000,
               "status": "skipped"
             },
             "line": 13,
@@ -137,7 +137,7 @@
           },
           {
             "result": {
-              "duration": 73000,
+              "duration": 131000,
               "status": "skipped"
             },
             "line": 14,
@@ -155,7 +155,7 @@
           },
           {
             "result": {
-              "duration": 96000,
+              "duration": 66000,
               "status": "skipped"
             },
             "line": 15,
@@ -190,7 +190,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-07T07:30:56.279Z",
+        "start_timestamp": "2021-09-07T07:34:51.146Z",
         "line": 11,
         "name": "Today is or is not Friday",
         "description": "",
@@ -200,7 +200,7 @@
         "steps": [
           {
             "result": {
-              "duration": 322000,
+              "duration": 9396000,
               "status": "passed"
             },
             "line": 5,
@@ -218,7 +218,7 @@
           },
           {
             "result": {
-              "duration": 19069000,
+              "duration": 4550000,
               "status": "passed"
             },
             "line": 6,
@@ -230,7 +230,7 @@
           },
           {
             "result": {
-              "duration": 5958000,
+              "duration": 10754000,
               "status": "passed"
             },
             "line": 7,
@@ -249,7 +249,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-07T07:30:56.259Z",
+        "start_timestamp": "2021-09-07T07:34:51.160Z",
         "line": 12,
         "name": "Today is or is not Friday",
         "description": "",
@@ -259,7 +259,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10211000,
+              "duration": 4311000,
               "status": "passed"
             },
             "line": 5,
@@ -277,7 +277,7 @@
           },
           {
             "result": {
-              "duration": 356000,
+              "duration": 142000,
               "status": "passed"
             },
             "line": 6,
@@ -289,7 +289,7 @@
           },
           {
             "result": {
-              "duration": 28989000,
+              "duration": 11144000,
               "status": "passed"
             },
             "line": 7,
@@ -308,7 +308,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-07T07:30:56.264Z",
+        "start_timestamp": "2021-09-07T07:34:51.144Z",
         "line": 13,
         "name": "Today is or is not Friday",
         "description": "",
@@ -318,7 +318,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2511000,
+              "duration": 9455000,
               "status": "passed"
             },
             "line": 5,
@@ -336,7 +336,7 @@
           },
           {
             "result": {
-              "duration": 23911000,
+              "duration": 447000,
               "status": "passed"
             },
             "line": 6,
@@ -348,7 +348,7 @@
           },
           {
             "result": {
-              "duration": 6781000,
+              "duration": 5855000,
               "status": "passed"
             },
             "line": 7,
@@ -378,7 +378,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-07T07:30:56.369Z",
+        "start_timestamp": "2021-09-07T07:34:51.230Z",
         "line": 3,
         "name": "User login to application successfully.",
         "description": "",
@@ -388,7 +388,7 @@
         "steps": [
           {
             "result": {
-              "duration": 27452000,
+              "duration": 21417000,
               "status": "passed"
             },
             "line": 5,
@@ -406,7 +406,7 @@
           },
           {
             "result": {
-              "duration": 238000,
+              "duration": 146000,
               "status": "passed"
             },
             "line": 6,
@@ -418,7 +418,7 @@
           },
           {
             "result": {
-              "duration": 156000,
+              "duration": 132000,
               "status": "passed"
             },
             "line": 7,
@@ -430,7 +430,7 @@
           },
           {
             "result": {
-              "duration": 65185000,
+              "duration": 49334000,
               "status": "passed"
             },
             "line": 8,
@@ -594,7 +594,7 @@
           },
           {
             "result": {
-              "duration": 938000,
+              "duration": 3023000,
               "status": "passed"
             },
             "line": 34,
