@@ -24,3 +24,10 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn clean install
+    - name: Display Cucumber Report in Git Hub page
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: .\reports\html-reports\cucumber-html-reports
+        
+
